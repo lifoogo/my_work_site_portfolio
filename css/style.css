@@ -1,0 +1,602 @@
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+body{
+    
+}
+/* Header */
+/* Header */
+/* Header */
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    height: 80px;
+    padding: 0px 136px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+.nav_logo:hover, .nav_logo:focus, .nav_logo:active{
+    opacity:.75;
+    
+}
+.header__logo{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.nav_logo{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.nav_bar{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.wrapper a{
+    text-decoration: none;
+    color: #2C2C2C;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 285.714% */
+    letter-spacing: 0.14px;
+}
+.nav_bar span{
+    display: flex;
+    padding: 4px 24px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: #FD665E;
+}
+.nav_bar span a{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 285.714% */
+    letter-spacing: 0.14px;
+}
+/* Header */
+/* Header */
+/* Header */
+
+
+/* Dreadm House */
+/* Dreadm House */
+/* Dreadm House */
+.dream{
+    padding: 64px 136px;
+}
+.dream_container{
+    display: flex;
+    width: 1440px;
+    padding: 64px 136px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 64px; 
+}
+.dream_content h1{
+    align-self: stretch;
+    color: #000;
+    font-family: Playfair Display;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%; /* 96px */
+    letter-spacing: -1.92px;
+}
+.dream_content h1 span{
+    color: #FD665E;
+    font-family: Playfair Display;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: -1.92px;
+}
+.dream_content_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+.dream_logo{
+    width: 765px;
+    height: 480px;
+}
+.content_d{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+.content_d p{
+    width: 305px;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+    letter-spacing: 0.16px;
+}
+
+.content_d a{
+    display: flex;
+    padding: 8px 32px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+background: #FD665E;
+}
+
+.content_d a{
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 285.714% */
+    letter-spacing: 0.14px;
+}
+/* Dreadm House */
+/* Dreadm House */
+/* Dreadm House */
+
+.build{
+    padding: 80px 136px;
+    overflow: hidden;
+    width: 1440px;
+}
+.build_container{
+    display: flex;
+    width: 1440px;
+    padding: 80px 136px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    align-self: stretch;
+    
+    
+}
+.build_nav_scroller{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-self: stretch;
+}
+.build_nav_scroller h1{
+    width: 535px;
+    color: #000;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 124%; /* 59.52px */
+    letter-spacing: -0.96px;
+}
+
+.tapping_scroller img {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    
+}
+.tapping_scroller_button_1{
+    display: flex;
+    width: 48px;
+    height: 48px;
+    padding: 14px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 48px;
+    height: 48px;
+    padding: 14px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+background: rgba(0, 0, 0, 0.03);
+}
+.tapping_scroller_button_2{
+    display: flex;
+    width: 48px;
+    height: 48px;
+    padding: 14px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 48px;
+    height: 48px;
+    padding: 14px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+background: rgba(0, 0, 0, 0.03);
+}
+.tapping_scroller{
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+.scroller_build{
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    
+}
+/* Dreadm House */
+/* Dreadm House */
+/* Dreadm House */
+
+/* TeamWork */
+/* TeamWork */
+/* TeamWork */
+.team_work{
+    width: 1440px;
+    padding: 80px 136px;
+}
+.wrapper_team{
+    display: flex;
+    padding: 80px 136px;
+    width: 1440px;
+}
+.logo_team{
+    width: 535px;
+    height: 610px;
+}
+.team_content{
+    display: flex;
+    padding: 0px 120px;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+
+}
+.team{
+    display: flex;
+    align-items: flex-start;
+    gap: 38px;
+}
+.team h4{
+    width: 305px;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; /* 25.6px */
+    letter-spacing: 0.16px;
+}
+.team p{
+    width: 305px;
+    color: #272727;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+    letter-spacing: 0.16px;
+}
+.team img{
+    width: 64px;
+    height: 64px;
+}
+.team_content h1{
+    align-self: stretch;
+    color: #000;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 124%; /* 59.52px */
+    letter-spacing: -0.96px;
+}
+.team_info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px; 
+}
+
+.button_team{
+    display: flex;
+    padding: 8px 32px;
+    gap: 10px;
+    align-items: center;
+
+
+    border-radius: 4px;
+    background: #FD665E;    
+}
+.button_team a {
+    
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 285.714% */
+    letter-spacing: 0.14px;
+}
+
+/* TeamWork */
+/* TeamWork */
+/* TeamWork */
+
+
+/* Sound */
+/* Sound */
+/* Sound */
+.sound{
+    width: 1440px;
+    padding: 80px 136px;
+}
+.sound_container{
+    width: 1440px;
+    padding: 80px 136px;
+    display: flex;
+    padding: 80px 165px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 64px;
+    align-self: stretch;
+}
+.sound_container h1{
+    color: #000;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 124%; /* 59.52px */
+    letter-spacing: -0.96px;
+}
+.sound_content{
+    display: flex;
+    align-items: flex-start;
+    gap: 48px;
+}
+.sound_content h3{
+    width: 765px;
+    color: #000;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 57.6px */
+    letter-spacing: 0.36px;
+}
+.sound_foter{
+    display: flex;
+    width: 765px;
+    justify-content: space-between;
+    align-items: center;
+}
+.sound_nav{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 48px;
+    align-self: stretch;
+}
+.sound_foter h4{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+    letter-spacing: 0.16px;
+}
+/* Sound */
+/* Sound */
+/* Sound */
+
+
+/* Ralize */
+/* Ralize */
+/* Ralize */
+.realize{
+    width: 1440px;
+    padding: 80px 136px;
+}
+
+.realize_container{
+    width: 1440px;
+    padding: 80px 136px;
+    display: flex;
+    padding: 64px 136px;
+    align-items: center;
+    gap: 48px;
+    align-self: stretch;
+}
+.realize_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    flex: 1 0 0;
+}
+.realize_content h1{
+    width: auto;
+    height: auto;
+    align-self: stretch;
+    color: #000;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%; /* 64px */
+    letter-spacing: -1.28px;
+}
+.realize_content h1 span{
+    color: #FD665E;
+    font-family: Playfair Display;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: -1.28px;
+}
+
+.realize_content a{
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 285.714% */
+    letter-spacing: 0.14px;
+}
+.button_realize{
+    display: flex;
+    padding: 8px 32px;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 4px;
+    background: #FD665E;
+}
+.cloud_logo{
+    position: relative;
+    top: -90px; left: 460px;
+}
+.cloud_logo_2{
+    position: relative;
+    top: -90px; left: 460px;
+}
+
+/* Ralize */
+/* Ralize */
+/* Ralize */
+
+
+/* Partner_logo */
+/* Partner_logo */
+/* Partner_logo */
+.partner{
+    width: 1440px;
+    padding: 80px 136px;
+}
+.partner_container{
+    width: 1440px;
+    padding: 80px 136px;
+    display: flex;
+
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    align-self: stretch;
+
+    border-bottom: 1px solid #E0E0E0;
+
+}
+.partner_container h1{
+    width: 374px;
+    color: #000;
+    font-family: New York Extra Large;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 124%; /* 59.52px */
+    letter-spacing: -1.92px;
+}
+.info_partner{
+    display: flex;
+    padding: 24px 0px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+.info_partner img{
+    width: 102.675px;
+    height: 22.697px;
+    flex-shrink: 0;
+
+    display: flex;
+    height: 64px;
+    padding: 16.015px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.203px;
+}
+.info_partner span{
+    color: 999999;
+    display: flex;
+    height: 64px;
+    padding: 16.015px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.203px;
+
+    border: 1px solid #000;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+/* Partner_logo */
+/* Partner_logo */
+/* Partner_logo */
+
+/* Fotter */
+/* Fotter */
+/* Fotter */
+.fotter{
+    width: 1440px;
+    padding: 80px 136px;
+    display: flex;
+    padding: 80px 136px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+.fotter_container{
+    width: 1440px;
+    padding: 0px 136px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+.nav_fotter a{
+    text-decoration: none;
+    color: #2C2C2C;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 285.714% */
+    letter-spacing: 0.14px;
+}
+.nav_fotter{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+/* Fotter */
+/* Fotter */
+/* Fotter */
